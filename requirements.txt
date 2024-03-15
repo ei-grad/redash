@@ -22,7 +22,7 @@ python-dateutil==2.8.0
 pytz>=2019.3
 PyYAML==5.4
 redis==3.5.0
-requests==2.21.0
+requests==2.31.0
 SQLAlchemy==1.3.10
 # We can't upgrade SQLAlchemy-Searchable version as newer versions require PostgreSQL > 9.6, but we target older versions at the moment.
 SQLAlchemy-Searchable==0.10.6
@@ -47,7 +47,7 @@ xlsxwriter==1.2.2
 pystache==0.5.4
 parsedatetime==2.4
 PyJWT==1.7.1
-cryptography==2.8
+cryptography==42.0.2
 simplejson==3.16.0
 ua-parser==0.8.0
 user-agents==2.0
@@ -64,3 +64,6 @@ werkzeug==0.16.1
 # ldap3==2.2.4
 Authlib==0.15.5
 advocate==1.0.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
