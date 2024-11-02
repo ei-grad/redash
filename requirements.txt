@@ -54,13 +54,16 @@ user-agents==2.0
 maxminddb-geolite2==2018.703
 pypd==1.1.0
 disposable-email-domains>=0.0.52
-gevent==1.4.0
+gevent==24.10.1
 sshtunnel==0.1.5
 supervisor==4.1.0
 supervisor_checks==0.8.1
-werkzeug==0.16.1
+werkzeug==3.0.6
 # Uncomment the requirement for ldap3 if using ldap.
 # It is not included by default because of the GPL license conflict.
 # ldap3==2.2.4
 Authlib==0.15.5
 advocate==1.0.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+paramiko>=3.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
