@@ -44,10 +44,10 @@
   },
   "homepage": "https://redash.io/",
   "dependencies": {
-    "@ant-design/icons": "^4.2.1",
+    "@ant-design/icons": "^6.0.0",
     "@redash/viz": "file:viz-lib",
     "ace-builds": "^1.4.12",
-    "antd": "^4.4.3",
+    "antd": "^5.12.7",
     "axios": "^0.21.1",
     "axios-auth-refresh": "^3.0.0",
     "bootstrap": "^3.3.7",
@@ -74,7 +74,7 @@
     "react-resizable": "^1.10.1",
     "react-virtualized": "^9.21.2",
     "sql-formatter": "git+https://github.com/getredash/sql-formatter.git",
-    "universal-router": "^8.3.0",
+    "universal-router": "^10.0.0",
     "use-debounce": "^3.1.0",
     "use-media": "^1.4.0"
   },
