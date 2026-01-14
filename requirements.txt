@@ -58,9 +58,10 @@ gevent==1.4.0
 sshtunnel==0.1.5
 supervisor==4.1.0
 supervisor_checks==0.8.1
-werkzeug==0.16.1
+werkzeug==3.1.5
 # Uncomment the requirement for ldap3 if using ldap.
 # It is not included by default because of the GPL license conflict.
 # ldap3==2.2.4
-Authlib==0.15.5
+Authlib==1.6.6
 advocate==1.0.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
